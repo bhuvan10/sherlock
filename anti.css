@@ -1,0 +1,67 @@
+.element .n1 {
+       padding: 20px 0;
+}
+.element .n2 {
+       padding: 20px 0;
+}
+.element .n3 {
+       padding: 20px 0;
+}
+.element .n4 {
+       padding: 20px 0;
+}
+.element input{
+       background-color: aliceblue;
+}
+input::placeholder{
+       font-size: larger;
+}
+*{
+    background-color: black;
+    margin: auto;
+    width: 75%;
+    padding: 15px 80px;
+}
+h1{
+       color: white;
+    display: block;
+    font-size: 2em;
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+       color: white;
+}
+
+.btn1{
+       background-color: #002ead; 
+       border: none;
+       color: white;
+       margin-left: 1.0em;
+       padding: 15px 32px;
+       margin-top: 0.67em;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 20px;
+   }
+   
+   .btn1:hover{
+       background-color: red;
+       transition: 0.7s;
+   }
+   
+   .btn1:focus{
+       outline-color: transparent;
+       outline-style:solid;
+       box-shadow: 0 0 0 4px #5a01a7;
+       transition: 0.7s;;
+   }
+   
+   .btn1:active{
+       background-color: white;
+   }

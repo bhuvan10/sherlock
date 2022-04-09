@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 75%;
+    padding: 15px 80px;
+
+
+}
+.timer p{
+
+  margin-left: auto;   
+  background-color: #fbfbfb;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 36px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 8px;
+  font-size: 24px;  
+  transition-duration: 0.4s;
+
+}
+.timer#countdown{
+  width: 120x;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  margin: 15px 15px;
+}
+input{
+  background-color: white;
+  width: 5 remn;
+  font-size: large;
+  color: black;
+}
